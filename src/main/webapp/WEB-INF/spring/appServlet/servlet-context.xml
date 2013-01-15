@@ -72,9 +72,9 @@ http://www.springframework.org/schema/context http://www.springframework.org/sch
 
 	<!-- Handles database connection details -->
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
-        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://localhost:3306/mini_twitter"/>
-        <property name="username" value="root"/>
-        <property name="password" value=""/>
-    </bean>
+        	<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+	        <property name="url" value="jdbc:mysql://localhost:3306/mini_twitter"/>
+        	<property name="username" value="root"/>
+        	<property name="password" value=""/>
+    	</bean>
 </beans>
